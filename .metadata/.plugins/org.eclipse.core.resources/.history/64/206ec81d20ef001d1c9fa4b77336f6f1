@@ -1,0 +1,14 @@
+package kda;
+
+import java.util.Scanner;
+
+public class kva {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Adınızı giriniz.");
+        String isimString = scanner.nextLine();
+        System.out.println("Soyadınızı giriniz");
+        String soyisimString = scanner.nextLine();
+        System.out.println("Adınız ve Soyadınız: " + isimString + " " + soyisimString);
+    }
+}
